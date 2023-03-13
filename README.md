@@ -16,7 +16,7 @@ If you find our work useful in your research, please consider to cite our paper:
 @inproceedings{li2023_3dcinemagraphy,
   title={3D Cinemagraphy from a Single Image},
   author={Li, Xingyi and Cao, Zhiguo and Sun, Huiqiang and Zhang, Jianming and Xian, Ke and Lin, Guosheng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2023}
 }
 ```
