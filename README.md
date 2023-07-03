@@ -20,7 +20,6 @@ bash requirements.sh
 ```
 
 # Usage
-Due to
 Download pretrained models from [Google Drive](https://drive.google.com/file/d/1ROxvB7D-vNYl4eYmIzZ5Gitg84amMd19/view?usp=sharing), then unzip and put them in the directory `ckpts`.
 
 To achieve better motion estimation results and controllable animation, here we provide the controllable version. 
