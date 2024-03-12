@@ -8,7 +8,7 @@ Huiqiang Sun<sup>1</sup>,
 
 <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Adobe Research, <sup>3</sup>S-Lab, Nanyang Technological University
 
-### [Project](https://xingyi-li.github.io/3d-cinemagraphy/) | [Paper](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-paper.pdf) | [arXiv](https://arxiv.org/pdf/2303.05724.pdf) | [Video](https://youtu.be/sqCy7ffTEEY) | [Supp](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-supp.pdf) | [Poster](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-poster.pdf)
+### [Project](https://xingyi-li.github.io/3d-cinemagraphy/) | [Paper](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-paper.pdf) | [arXiv](https://arxiv.org/abs/2303.05724) | [Video](https://youtu.be/sqCy7ffTEEY) | [Supp](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-supp.pdf) | [Poster](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-poster.pdf)
 
 This repository contains the official PyTorch implementation of our CVPR 2023 paper "3D Cinemagraphy from a Single Image".
 
