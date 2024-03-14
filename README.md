@@ -1,9 +1,9 @@
 # 3D Cinemagraphy from a Single Image (CVPR 2023)
 [Xingyi Li](https://scholar.google.com/citations?user=XDKQsvUAAAAJ&hl)<sup>1,3</sup>,
 [Zhiguo Cao](http://english.aia.hust.edu.cn/info/1085/1528.htm)<sup>1</sup>,
-Huiqiang Sun<sup>1</sup>,
+[Huiqiang Sun](https://huiqiang-sun.github.io/)<sup>1</sup>,
 [Jianming Zhang](https://jimmie33.github.io/)<sup>2</sup>,
-[Ke Xian](https://sites.google.com/site/kexian1991/)<sup>3*</sup>,
+[Ke Xian](https://kexianhust.github.io/)<sup>3*</sup>,
 [Guosheng Lin](https://guosheng.github.io/)<sup>3</sup>
 
 <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Adobe Research, <sup>3</sup>S-Lab, Nanyang Technological University
