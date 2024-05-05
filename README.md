@@ -8,18 +8,18 @@
 
 <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Adobe Research, <sup>3</sup>S-Lab, Nanyang Technological University
 
-### [Project](https://xingyi-li.github.io/3d-cinemagraphy/) | [Paper](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-paper.pdf) | [arXiv](https://arxiv.org/abs/2303.05724) | [Video](https://youtu.be/sqCy7ffTEEY) | [Supp](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-supp.pdf) | [Poster](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-poster.pdf)
+[Project](https://xingyi-li.github.io/3d-cinemagraphy/) | [Paper](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-paper.pdf) | [arXiv](https://arxiv.org/abs/2303.05724) | [Video](https://youtu.be/sqCy7ffTEEY) | [Supp](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-supp.pdf) | [Poster](https://github.com/xingyi-li/3d-cinemagraphy/blob/main/pdf/3d-cinemagraphy-poster.pdf)
 
 This repository contains the official PyTorch implementation of our CVPR 2023 paper "3D Cinemagraphy from a Single Image".
 
-# Installation
+## Installation
 ```
 git clone https://github.com/xingyi-li/3d-cinemagraphy.git
 cd 3d-cinemagraphy
 bash requirements.sh
 ```
 
-# Usage
+## Usage
 Download pretrained models from [Google Drive](https://drive.google.com/file/d/1ROxvB7D-vNYl4eYmIzZ5Gitg84amMd19/view?usp=sharing), then unzip and put them in the directory `ckpts`.
 
 To achieve better motion estimation results and controllable animation, here we provide the controllable version. 
@@ -52,13 +52,13 @@ python demo.py -c configs/config.yaml --input_dir demo/0/ --ckpt_path ckpts/mode
 
 Results will be saved to the `input_dir/output`.
 
-# Known issues
+## Known issues
 - Due to the limited size of the training dataset, the intermediate frame may occasionally experience flickering. 
 - The utilization of a fixed distance threshold in agglomerative clustering within the disparity space can occasionally result in the presence of visible boundaries between different layers.
 - We may sometimes see artifacts when the fluid is moving very fast. You can either slow down the fluid by increasing the `flow_scale` or try to specify short hints rather than long hints, to avoid artifacts.
 - The motion estimation module occasionally generates motion fields that do not perfectly align with the desired preferences.
 
-# Citation
+## Citation
 If you find our work useful in your research, please consider to cite our paper:
 ```
 @InProceedings{li2023_3dcinemagraphy,
@@ -71,7 +71,7 @@ If you find our work useful in your research, please consider to cite our paper:
 }
 ```
 
-# Relevant works
+## Relevant works
 - [Animating Pictures with Eulerian Motion Fields](https://openaccess.thecvf.com/content/CVPR2021/papers/Holynski_Animating_Pictures_With_Eulerian_Motion_Fields_CVPR_2021_paper.pdf), CVPR 2021
 - [Controllable Animation of Fluid Elements in Still Images](https://openaccess.thecvf.com/content/CVPR2022/papers/Mahapatra_Controllable_Animation_of_Fluid_Elements_in_Still_Images_CVPR_2022_paper.pdf), CVPR 2022
 - [Simulating Fluids in Real-World Still Images](https://arxiv.org/pdf/2204.11335), arXiv 2022
@@ -81,5 +81,5 @@ If you find our work useful in your research, please consider to cite our paper:
 - [3D Video Loops from Asynchronous Input](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_3D_Video_Loops_From_Asynchronous_Input_CVPR_2023_paper.pdf), CVPR 2023
 
 
-# Acknowledgement
+## Acknowledgement
 This code borrows heavily from [3D Moments](https://github.com/google-research/3d-moments) and [SLR-SFS](https://github.com/simon3dv/SLR-SFS). We thank the respective authors for open sourcing their methods.
